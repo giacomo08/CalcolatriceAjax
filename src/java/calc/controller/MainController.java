@@ -22,7 +22,7 @@ public class MainController {
   @RequestMapping(value = "/calcolatrice_Get", method = RequestMethod.GET)
   public @ResponseBody
   String getRisultatoM_GET(@RequestParam(value = "num1", required = true) float num1, 
-          @RequestParam(value = "num2", required = true) float num2, @RequestParam(value = "op", required = true) char op) {
+          @RequestParam(value = " String getRisultatoM_GET(@RequestParam(value = \"num1\", requirenum2", required = true) float num2, @RequestParam(value = "op", required = true) char op) {
     return calcolaRis(num1, num2, op);
   }//getRisultatoM_GET
 

@@ -1,7 +1,6 @@
 function calcola(op) {
     var n1 = document.getElementById("num1");
     var n2 = document.getElementById("num2");
-    var r = document.getElementById("risultato");
     var num1 = parseInt(n1.value);
     var num2 = parseInt(n2.value);
     if (n1.value == '') {

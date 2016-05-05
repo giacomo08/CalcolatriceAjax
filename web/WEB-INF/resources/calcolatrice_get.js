@@ -1,9 +1,9 @@
 function calcola(op) {
+    //prendo il valore dei campi di input
     var n1 = document.getElementById("num1");
     var n2 = document.getElementById("num2");
-    var r = document.getElementById("risultato");
-    var num1 = parseInt(n1.value);
-    var num2 = parseInt(n2.value);
+    var num1 = parseFloat(n1.value);
+    var num2 = parseFloat(n2.value);
     if (n1.value == '') {
         n1.value = 1;
         num1 = 1;
@@ -20,9 +20,7 @@ function calcola(op) {
         showResponseText(request);
     };
     request.open("GET", "calcolatrice_Get?"+param, true);
-     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     request.send();
-    //console.log(num1 + " " + op + " " + num2);
 }
 
 
