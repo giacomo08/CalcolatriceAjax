@@ -19,9 +19,10 @@ function calcola(op) {
     request.onreadystatechange = function () {
         showResponseText(request);
     };
-    request.open("POST", "calcolatrice_Post", true);
-    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    request.send(param);
+    request.open("GET", "calcolatrice_Get?"+param, true);
+     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    request.send();
+    //console.log(num1 + " " + op + " " + num2);
 }
 
 
@@ -36,3 +37,5 @@ function showResponseText(request) {
 function htmlInsert(htmlData) {
     document.getElementById("risultato").innerHTML = htmlData;
 }
+
+
