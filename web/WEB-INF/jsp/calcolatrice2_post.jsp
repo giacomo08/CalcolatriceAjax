@@ -5,9 +5,9 @@
 <html>
     <head>
         
-        <script src="./resources/calcolatrice.js"   type="text/javascript"></script>
+        <script src="./resources/calcolatrice_post.js"   type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Calcolatrice con parametri POST</title>
+        <title>Calcolatrice parametri passati con metotodo POST</title>
     </head>
 
     <body>

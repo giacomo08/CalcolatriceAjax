@@ -7,7 +7,7 @@
         
         <script src="./resources/calcolatrice_get.js"   type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Calcolatrice con parametri GET</title>
+        <title>Calcolatrice parametri passati con metotodo GET</title>
     </head>
 
     <body>
